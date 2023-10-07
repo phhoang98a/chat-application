@@ -7,7 +7,7 @@ A real-time chat application.
 - Node/Express for creating API endpoints
 - PostgreSQL for storing messages
 - Redis for storing sessions
-- Socket.io for making the app real-time
+- Socket.io for real-time
 ## Basic Features
 
 - Users can register/login via email and password.
@@ -31,7 +31,6 @@ To run this project locally, follow these steps:
 3. Set up Environment Variables:
    - Go to the [Firebase Console](https://console.firebase.google.com/).
    - Create a new project or select an existing one.
-   - Go to the project settings or service accounts section.
    - Store Firebase information in `.env` in `front-end `:
      
       apiKey=
