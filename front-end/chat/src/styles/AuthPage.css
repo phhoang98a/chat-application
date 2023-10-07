@@ -1,0 +1,44 @@
+.main {
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(75deg, rgb(40, 43, 54) 0%, rgb(40, 43, 54) 50%, rgba(40, 43, 54, 0.8) 100%);
+  /* Vertical center */
+  display: table-cell;
+}
+
+.MuiFormLabel-root {
+  color: #e8e8e8 !important;
+  font-family: Avenir !important;
+}
+
+.MuiInputBase-root {
+  border-radius: 10px !important;
+}
+
+.MuiInputBase-input{
+  color: #e8e8e8 !important;
+}
+
+@media only screen and (min-width: 1024px) {
+  .auth-area {
+    width: 50%;
+    max-width: 350px;
+    margin-left: 15%;
+    margin-top: 10%;
+  }
+}
+@media only screen and (min-width: 769px) and (max-width: 1023px) {
+  .auth-area {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .auth-area {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50%;
+  }
+}
