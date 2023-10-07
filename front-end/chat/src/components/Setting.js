@@ -75,7 +75,7 @@ const Setting = ({ openModal, setOpenModal, account }) => {
       open={openModal}
       onClose={() => setOpenModal(false)}
     >
-      <Box sx={style} >
+      <Box className="setting"  >
         <Box style={{ padding: "5px", fontSize: "25px", textAlign: "center" }}>
           Pick avatar
           <Grid container spacing={0} style={{ marginTop: "10px" }} >
